@@ -21,7 +21,8 @@
           <version>2.22.0</version>
             <configuration>
             <suiteXmlFiles>
-                <suiteXmlFile> D:\Java_Training_Workspace\POM_November2018Batch\testng.xml</suiteXmlFile>                   
+                <!--  --> -->suiteXmlFile> D:\Java_Training_Workspace\POM_November2018Batch\testng.xml<!--  -->/suiteXmlFile>     
+                <suiteXmlFile> D:\Java_Git\POM_November2018Batch\POM_November2018Batch\testng.xml</suiteXmlFile>                
              </suiteXmlFiles>
             </configuration>
        </plugin>       

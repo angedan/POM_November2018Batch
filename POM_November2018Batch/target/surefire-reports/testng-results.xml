@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29336" started-at="2018-12-28T01:39:11Z" finished-at="2018-12-28T01:39:41Z">
+  <suite name="Suite" duration-ms="34680" started-at="2018-12-29T01:39:54Z" finished-at="2018-12-29T01:40:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29336" started-at="2018-12-28T01:39:11Z" finished-at="2018-12-28T01:39:41Z">
+    <test name="Test" duration-ms="34680" started-at="2018-12-29T01:39:54Z" finished-at="2018-12-29T01:40:29Z">
       <class name="testcases.PlaceOrderTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="init" is-config="true" duration-ms="13455" started-at="2018-12-28T01:38:58Z" finished-at="2018-12-28T01:39:11Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="init" is-config="true" duration-ms="32694" started-at="2018-12-29T01:39:22Z" finished-at="2018-12-29T01:39:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="placeOrderByCOD()[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="placeOrderByCOD" duration-ms="29316" started-at="2018-12-28T01:39:11Z" finished-at="2018-12-28T01:39:41Z">
+        <test-method status="PASS" signature="placeOrderByCOD()[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="placeOrderByCOD" duration-ms="34658" started-at="2018-12-29T01:39:54Z" finished-at="2018-12-29T01:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrderByCOD -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-12-28T01:39:41Z" finished-at="2018-12-28T01:39:41Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="getResult" is-config="true" duration-ms="3" started-at="2018-12-29T01:40:29Z" finished-at="2018-12-29T01:40:29Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="tearDown" is-config="true" duration-ms="6126" started-at="2018-12-28T01:39:41Z" finished-at="2018-12-28T01:39:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.PlaceOrderTest@2096442d]" name="tearDown" is-config="true" duration-ms="6350" started-at="2018-12-29T01:40:29Z" finished-at="2018-12-29T01:40:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

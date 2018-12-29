@@ -47,15 +47,20 @@ public class BaseTest {
 	{
 		//eat=new ExcelApiTest("C:\\Users\\adan\\Desktop\\TestData.xlsx");
 		
-		eat = new ExcelApiTest ("D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\TestData.xlsx");
+	//	eat = new ExcelApiTest ("D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\TestData.xlsx");
 		
-		fis = new FileInputStream("D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\config.properties");
+		//fis = new FileInputStream("D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\config.properties");
+	   // fis = new FileInputStream("D:\\Java_Git\\POM_November2018Batch\\POM_November2018Batch\\config.properties");
+	    fis = new FileInputStream("D:\\Java_Git\\POM_November2018Batch\\POM_November2018Batch\\src\\main\\resources\\config.properties");
 		config = new Properties();
 		config.load(fis);
 		
+
+		
 		if (extentHtmlReporter==null)
 		{
-			extentHtmlReporter =  new ExtentHtmlReporter("D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\adaReport.html");
+			//extentHtmlReporter =  new ExtentHtmlReporter("D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\adaReport.html");
+			extentHtmlReporter =  new ExtentHtmlReporter("D:\\Java_Git\\POM_November2018Batch\\POM_November2018Batch\\src\\main\\resources\\adaReport.html");
 			extentReports= new ExtentReports();
 			extentReports.attachReporter(extentHtmlReporter);
 			
@@ -91,7 +96,8 @@ public class BaseTest {
 	{
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		String dest = "D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\screenshot" +screenshotName+".png";
+		//String dest = "D:\\Java_Training_Workspace\\POM_November2018Batch\\src\\main\\resources\\screenshot" +screenshotName+".png";
+	   String dest = "D:\\Java_Git\\POM_November2018Batch\\POM_November2018Batch\\screenshot" +screenshotName+".png";
 		File destination = new File(dest);
 		org.openqa.selenium.io.FileHandler.copy(source, destination);
 		
